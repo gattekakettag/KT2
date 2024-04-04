@@ -113,14 +113,14 @@ const magazine = new Magazine("Журнал", "Издатель", 2000, 5, 5);
 const reader = new Reader("Имя", "Фамилия");
 const library = new Library();
 
-library.addPublication(book1);
-library.addPublication(magazine1);
+library.addPublication(book);
+library.addPublication(magazine);
 
-reader.delivery(book1);
-reader.delivery(magazine1);
+reader.delivery(book);
+reader.delivery(magazine);
 
-reader.receive(book1);
-reader.receive(magazine1);
+reader.receive(book);
+reader.receive(magazine);
 
 //Выводит вот так: 
 //[LOG]: "Книга выдана человеку Имя Фамилия" 
